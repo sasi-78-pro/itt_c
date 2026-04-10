@@ -1,0 +1,7 @@
+How to multiply the digits of the number entered by the user (except zero) on Python?
+number = input("enter an number: ")
+carpim=1
+for digitofnumber in str(numaber):
+  if int(digitofnumber) != 0:
+    multiplication*= int(digitofnumber)
+print("digits of the number: ",multiplication)
